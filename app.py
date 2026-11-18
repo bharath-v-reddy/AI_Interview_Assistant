@@ -5,6 +5,7 @@ st.set_page_config(page_title='LLM', layout='centered')
 
 st.title('AI Interview')
 st.caption('Practice and Prepare for your placement')
+st.caption('BHARATH V REDDY')
 
 try:
     client = Groq(api_key=st.secrets["GROQ_API_KEY"])
